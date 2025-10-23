@@ -1,0 +1,31 @@
+{
+  "name": "nika_backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000N\u0000I\u0000K\u0000A\u0000_\u0000B\u0000A\u0000C\u0000K\u0000E\u0000N\u0000D\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/Karthik7-hub/NIKA_BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/Karthik7-hub/NIKA_BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karthik7-hub/NIKA_BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
