@@ -6,7 +6,10 @@ import { createFolder, openFolder } from "../controllers/folderController.js";
 
 const router = Router();
 
-const upload = multer({ dest: "uploads/" });
+// ✅ ADD THIS INSTEAD (Memory Storage works on Vercel)
+const storage = multer.memoryStorage();
+
+const upload = multer({ storage: storage });
 
 router.post("/folder", verifyToken, createFolder);
 router.get("/folder", verifyToken, openFolder);
